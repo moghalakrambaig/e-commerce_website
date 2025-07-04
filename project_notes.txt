@@ -11,3 +11,14 @@ run:
 Powershell(administrator):
 Set-ExecutionPolicy RemoteSigned
 
+create a react app
+
+install mui libraries
+tailwind css
+
+add navbar from tailwind css
+
+heroicons
+headlessicons
+
+
