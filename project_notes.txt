@@ -48,3 +48,6 @@ const images = [
     path: require('../../images/image1.png'),
   },
 ];
+
+added product cards carousal below main carousal
+added arrows from https://mui.com/material-ui/material-icons/?query=left&selected=KeyboardArrowLeft
