@@ -72,4 +72,5 @@ addedconst carouselRef = useRef();
                     infinite={false}
                     activeIndex={activeIndex}
 
-                    
+made the button effect smooth by decreasing animation duration to 300
+comments inside parent tag must be in {/*agfiqHfoqwf*/}

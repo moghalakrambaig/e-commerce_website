@@ -29,16 +29,17 @@ const HomeSectionCarousal = () => {
     // const syncActiveIndex = ({ item }) => setActiveIndex(item);
 
     return (
-        <div className='border'>
+        <div className=''>
             <div className='relative p-5 justify-center'>
                 <AliceCarousel
                     ref={carouselRef}
                     items={items}
+                    touchTracking
                     disableButtonsControls
                     autoPlayInterval={1000}
                     responsive={responsive}
                     disableDotsControls
-                    animationDuration={700} // Controls smoothness
+                    animationDuration={300} // Controls smoothness
                     onSlideChanged={handleSlideChanged}
                     infinite={false}
                     activeIndex={activeIndex}
