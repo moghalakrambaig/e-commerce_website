@@ -1,3 +1,5 @@
+3/7/2025 - project set up (Node js)
+
 E-commerce
 
 Error:
@@ -13,12 +15,36 @@ Set-ExecutionPolicy RemoteSigned
 
 create a react app
 
+4/7/2025
 install mui libraries
 tailwind css
 
-add navbar from tailwind css
+added navbar from tailwind css
 
 heroicons
 headlessicons
 
+5/7/2025
+added carousal - alice carousal - https://www.npmjs.com/package/react-alice-carousel
+added styles to center image 
+added properties to alice carousal
 
+https://dev.to/yugjadvani/optimal-strategies-for-storing-images-in-react-applications-best-practices-and-examples-3050
+
+If you're using this in a <img> tag in React, this won’t work by itself:
+
+<img src={image.path} /> // ❌ will NOT load the image
+Why? Because bundlers like Webpack or Vite don't automatically resolve relative string paths from JS at runtime.
+
+To make it work, you must import or require() the image:
+If you're stuck on using the string path, you'd need to dynamically require it:
+
+js
+Copy
+Edit
+const images = [
+  {
+    id: 1,
+    path: require('../../images/image1.png'),
+  },
+];

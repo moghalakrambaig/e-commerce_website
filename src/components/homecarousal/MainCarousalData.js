@@ -1,8 +1,10 @@
-export const MainCarousalData=[
+const MainCarousalData = [
     {
-        path: "./assets/adidas.jpg"
+        path: require("../../images/adidas.jpg")
     },
     {
-        path: "./assets/nike.jpg"
+        path: require("../../images/nike.jpg")
     }
 ]
+
+export { MainCarousalData };

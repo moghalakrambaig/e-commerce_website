@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navigation from './components/navigation/Navigation';
 import HomePage from './pages/homepage/HomePage';
@@ -6,9 +5,9 @@ import HomePage from './pages/homepage/HomePage';
 function App() {
   return (
     <div className="App">
-      <Navigation/>
+      <Navigation />
       <div>
-        <HomePage/>
+        <HomePage />
       </div>
     </div>
   );
