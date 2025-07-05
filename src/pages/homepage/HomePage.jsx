@@ -1,6 +1,5 @@
-import React from 'react'
-import MainCarousal from '../../components/homecarousal/MainCarousal'
-import HomeSectionCarousal from '../../components/homesectioncarousal/HomeSectionCarousal';
+import MainCarousal from '../../components/home-carousal/MainCarousal'
+import HomeSectionCarousal from '../../components/home-slider/HomeSectionCarousal';
 
 const HomePage = () => {
   return (

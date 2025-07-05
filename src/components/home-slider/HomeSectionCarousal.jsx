@@ -1,4 +1,4 @@
-import HomeSectionCard from '../homesectioncard/HomeSectionCard';
+import HomeSectionCard from '../home-slider-card/HomeSectionCard';
 import AliceCarousel from 'react-alice-carousel';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import { Button } from "@mui/material"

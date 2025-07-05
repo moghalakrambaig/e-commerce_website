@@ -1,5 +1,3 @@
-import React from 'react'
-
 const HomeSectionCard = () => {
     return (
         <div className='border border-gray-50 flex flex-col items-center bg-white rounded-lg shadow-lg overflow-hidden w-[15rem] mx-4'>
