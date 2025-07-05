@@ -48,6 +48,46 @@ const HomeSliderData = [
         brand: "Nike",
         path: require("../../images/nike.jpg"),
         title: "Nike Sport"
+    },
+    {
+        brand: "Adidas",
+        path: require("../../images/adidas.jpg"),
+        title: "Adidas Sneaker"
+    },
+    {
+        brand: "Nike",
+        path: require("../../images/nike.jpg"),
+        title: "Nike Sport"
+    },
+    {
+        brand: "Adidas",
+        path: require("../../images/adidas.jpg"),
+        title: "Adidas Sneaker"
+    },
+    {
+        brand: "Nike",
+        path: require("../../images/nike.jpg"),
+        title: "Nike Sport"
+    },
+    {
+        brand: "Adidas",
+        path: require("../../images/adidas.jpg"),
+        title: "Adidas Sneaker"
+    },
+    {
+        brand: "Nike",
+        path: require("../../images/nike.jpg"),
+        title: "Nike Sport"
+    },
+    {
+        brand: "Adidas",
+        path: require("../../images/adidas.jpg"),
+        title: "Adidas Sneaker"
+    },
+    {
+        brand: "Nike",
+        path: require("../../images/nike.jpg"),
+        title: "Nike Sport"
     }
 ]
 

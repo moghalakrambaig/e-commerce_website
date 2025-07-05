@@ -51,3 +51,25 @@ const images = [
 
 added product cards carousal below main carousal
 added arrows from https://mui.com/material-ui/material-icons/?query=left&selected=KeyboardArrowLeft
+
+6/7/2025:
+home slider prev and next not working on alice carousal 2.9
+install 2.7.2 version
+
+npm uninstall react-alice-carousel
+npm install react-alice-carousel@2.7.1
+npm prune
+npm cache clean --force
+
+Sliding was not smooth
+addedconst carouselRef = useRef();
+() => carouselRef.current?.slideNext()
+() => carouselRef.current?.slidePrev()
+                    autoPlayInterval={1000}
+                    responsive={responsive}
+                    animationDuration={700} // Controls smoothness
+                    onSlideChanged={handleSlideChanged}
+                    infinite={false}
+                    activeIndex={activeIndex}
+
+                    
