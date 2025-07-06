@@ -3,7 +3,9 @@ import AliceCarousel from 'react-alice-carousel';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import { Button } from "@mui/material"
 import { useRef, useState } from 'react';
-
+<div>
+    
+</div>
 const HomeSectionCarousal = ({data, sectionName}) => {
     const [activeIndex, setActiveIndex] = useState(0);
     const items = data.map((item, index) => <HomeSectionCard key={index} product={item} />);
@@ -29,7 +31,7 @@ const HomeSectionCarousal = ({data, sectionName}) => {
     // const syncActiveIndex = ({ item }) => setActiveIndex(item);
 
     return (
-        <div className='border'>
+        <div className='-mt-16'>
             <h2 className='text-2xl font-extrabold text-black py-5'>{sectionName}</h2>
             <div className='relative p-5 justify-center'>
                 <AliceCarousel

@@ -1,3 +1,5 @@
+import HomeSectionCarousal from "../components/home-slider/HomeSectionCarousal"
+
 export const nike_shoes = [
   {
     "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1de225fe-ea09-4aff-9d1f-dcbf170c1672/NIKE+PEGASUS+PREMIUM.png",
