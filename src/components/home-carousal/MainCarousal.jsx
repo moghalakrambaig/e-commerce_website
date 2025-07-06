@@ -7,7 +7,7 @@ const MainCarousal = () => {
     const items = MainCarousalData.map((item) => <img className='cursor-pointer' role='presentation' src={item.path} alt="" />);
 
 
-    return (<div className='carousal-container'><AliceCarousel
+    return (<div className='border carousal-container'><AliceCarousel
         items={items}
         disableButtonsControls
         autoPlay
