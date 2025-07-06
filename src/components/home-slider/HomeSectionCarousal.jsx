@@ -6,7 +6,7 @@ import { useRef, useState } from 'react';
 import { HomeSliderData } from './HomeSliderData';
 const HomeSectionCarousal = () => {
     const [activeIndex, setActiveIndex] = useState(0);
-    const items = HomeSliderData.map((item) => <HomeSectionCard product={item} />);
+    const items = HomeSliderData.map((item, index) => <HomeSectionCard key={index} product={item} />);
 
     const carouselRef = useRef();
     const responsive = {
@@ -39,7 +39,7 @@ const HomeSectionCarousal = () => {
                     autoPlayInterval={1000}
                     responsive={responsive}
                     disableDotsControls
-                    animationDuration={300} // Controls smoothness
+                    animationDuration={400} // Controls smoothness
                     onSlideChanged={handleSlideChanged}
                     infinite={false}
                     activeIndex={activeIndex}

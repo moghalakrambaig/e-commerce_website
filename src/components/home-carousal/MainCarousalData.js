@@ -1,12 +1,12 @@
 const MainCarousalData = [
     {
-        path: require("../../images/adidas.jpg")
+        path: require("./adidas.jpg")
     },
     {
-        path: require("../../images/nike.jpg")
+        path: require("./nikeBluee.jpg")
     },
     {
-        path: require("../../images/kswiss.jpg")
+        path: require("./Kswiss.jpg")
     }
 ]
 

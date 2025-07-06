@@ -3,8 +3,8 @@ import React from 'react';
 const HomeSectionCard = ({ product }) => {
     return (
         /*Card container*/
-        <div className='border border-grey-50 flex flex-col items-center bg-white rounded-lg shadow-lg w-[15rem]'>
-            <div className='h-[13rem] w-[10rem]'>
+        <div className='border border-grey-50 flex flex-col items-center bg-white rounded-lg shadow-lg w-full max-w-[15rem]'>
+            <div className='w-full h-[13rem]'>
                 <img className='object-cover object-top w-full h-full' src={product.path} alt='' />
 
             </div>
