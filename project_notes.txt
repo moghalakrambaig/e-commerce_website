@@ -80,3 +80,8 @@ resize the image or compress to load faster and slide smooth
 
 added js file with product data in json format
 and added more sliders in the home page with titles
+
+7/7/2025
+added footer using div, mui grid is not working properly
+modified margings btween carousals
+added new images to carousal.
