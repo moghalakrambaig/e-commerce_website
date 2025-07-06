@@ -7,13 +7,13 @@ const MainCarousal = () => {
     const items = MainCarousalData.map((item) => <img className='cursor-pointer' role='presentation' src={item.path} alt="" />);
 
 
-    return (<AliceCarousel
+    return (<div className='carousal-container'><AliceCarousel
         items={items}
         disableButtonsControls
         autoPlay
         autoPlayInterval={3000}
         infinite
-    />)
+    /></div>)
 }
 
 export default MainCarousal;

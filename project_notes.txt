@@ -74,3 +74,6 @@ addedconst carouselRef = useRef();
 
 made the button effect smooth by decreasing animation duration to 300
 comments inside parent tag must be in {/*agfiqHfoqwf*/}
+
+slider slides slow due to large image size
+resize the image or compress to load faster and slide smooth
