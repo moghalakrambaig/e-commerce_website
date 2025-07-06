@@ -10,8 +10,8 @@ const MainCarousal = () => {
     return (<div className='-mb-7 carousal-container'><AliceCarousel
         items={items}
         disableButtonsControls
-        //autoPlay
-        autoPlayInterval={3000}
+        autoPlay
+        autoPlayInterval={1700}
         infinite
     /></div>)
 }

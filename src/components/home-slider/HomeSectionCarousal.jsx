@@ -31,7 +31,7 @@ const HomeSectionCarousal = ({data, sectionName}) => {
     // const syncActiveIndex = ({ item }) => setActiveIndex(item);
 
     return (
-        <div className='-mt-16'>
+        <div className='-mt-16 mr-5 '>
             <h2 className='text-2xl font-extrabold text-black py-5'>{sectionName}</h2>
             <div className='relative p-5 justify-center'>
                 <AliceCarousel
