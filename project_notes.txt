@@ -1,6 +1,7 @@
 3/7/2025 - project set up (Node js)
 
 E-commerce
+Node.js version - v22.17.0
 
 Error:
 npm : File C:\Program Files\nodejs\npm.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at 
@@ -85,3 +86,5 @@ and added more sliders in the home page with titles
 added footer using div, mui grid is not working properly
 modified margings btween carousals
 added new images to carousal.
+
+8/7/2025:
