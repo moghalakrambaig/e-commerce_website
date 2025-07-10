@@ -3,7 +3,7 @@ import { Button, Typography } from '@mui/material';
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white mt-0 py-10 px-4">
+    <div className="bg-black text-white -mt-2 py-10 px-4">
       {/* Grid layout using Tailwind */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center">
         {/* Column 1 */}

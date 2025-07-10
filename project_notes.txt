@@ -88,3 +88,4 @@ modified margings btween carousals
 added new images to carousal.
 
 8/7/2025:
+Modified footer length
