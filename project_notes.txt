@@ -96,3 +96,11 @@ Navigation bar, website logo removed
 
 11/7/2025:
 logo added on home page.
+
+12/7/2025:
+added product component
+product card customization
+Created clodinary account for image delivery and optimzation - upload images to cloudinary or add prefix URL
+https://console.cloudinary.com/
+
+13/7/2025
