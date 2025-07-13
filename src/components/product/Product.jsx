@@ -179,7 +179,7 @@ export default function Product() {
                     </div>
                 </Dialog>
 
-                <main className="mx-auto -my-9 max-w-7xl px-4 sm:px-6 lg:px-8">
+                <main className="-my-9 w-full px-4 sm:px-6 lg:px-9">
                     <div className="flex items-baseline justify-between border-b border-gray-200 pt-24 pb-6">
                         <h1 className="text-4xl font-bold tracking-tight text-gray-900">New Arrivals</h1>
 
