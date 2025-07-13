@@ -15,6 +15,8 @@ import {
 } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, FunnelIcon, MinusIcon, PlusIcon, Squares2X2Icon } from '@heroicons/react/20/solid'
+import { nike_shoes } from '../../data/nike_shoes'
+import ProductCard from './ProductCard'
 
 const sortOptions = [
     { name: 'Most Popular', href: '#', current: true },
@@ -179,7 +181,7 @@ export default function Product() {
                     </div>
                 </Dialog>
 
-                <main className="-my-9 w-full px-4 sm:px-6 lg:px-9">
+                <main className="mx-auto -my-9 w-full px-4 sm:px-6 lg:px-9">
                     <div className="flex items-baseline justify-between border-b border-gray-200 pt-24 pb-6">
                         <h1 className="text-4xl font-bold tracking-tight text-gray-900">New Arrivals</h1>
 
@@ -237,7 +239,7 @@ export default function Product() {
                             Products
                         </h2>
 
-                        <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-4">
+                        <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-6">
                             {/* Filters */}
                             <form className="hidden lg:block">
                                 <h3 className="sr-only">Categories</h3>
@@ -308,7 +310,11 @@ export default function Product() {
                             </form>
 
                             {/* Product grid */}
-                            <div className="lg:col-span-3">{/* Your content */}</div>
+                            <div className="lg:col-span-5 w-full">
+                                <div className='flex flex-wrap justify-center bg-white py-5'>
+                                    {nike_shoes.map((item) => <ProductCard cardImage={item} />)}
+                                </div>
+                            </div>
                         </div>
                     </section>
                 </main>
