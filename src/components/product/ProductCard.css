@@ -1,0 +1,10 @@
+.productCard {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.productCard:hover {
+    transform: translateY(-8px);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 24px;
+}

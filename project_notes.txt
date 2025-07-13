@@ -104,3 +104,10 @@ Created clodinary account for image delivery and optimzation - upload images to 
 https://console.cloudinary.com/
 
 13/7/2025
+card text customiation (name, price, brand)
+
+flex: Arranges the child elements (<p> tags) horizontally (row layout by default).
+
+added shadow and hover pop effect to the card
+
+added product list category filters componenet from tailwind css: https://tailwindcss.com/plus/ui-blocks/ecommerce/components/category-filters
