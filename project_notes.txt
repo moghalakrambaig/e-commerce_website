@@ -111,3 +111,5 @@ flex: Arranges the child elements (<p> tags) horizontally (row layout by default
 added shadow and hover pop effect to the card
 
 added product list category filters componenet from tailwind css: https://tailwindcss.com/plus/ui-blocks/ecommerce/components/category-filters
+
+Customized padding and margins for product page.
