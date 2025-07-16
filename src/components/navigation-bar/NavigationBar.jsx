@@ -26,14 +26,14 @@ const navigation = {
         {
           name: 'New Arrivals',
           href: '#',
-          imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/mega-menu-category-01.jpg',
-          imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
+          imageSrc: 'https://res.cloudinary.com/dh6g9tp6p/image/upload/w_1280,h_1280,c_fill/v1752548725/UltraRide-ProFoam-Men_s-Running-Shoes_wr072d.avif',
+          imageAlt: 'UltraRide ProFoam Mens Running Shoes',
         },
         {
           name: 'Basic Tees',
           href: '#',
-          imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/mega-menu-category-02.jpg',
-          imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
+          imageSrc: 'https://res.cloudinary.com/dh6g9tp6p/image/upload/w_1280,h_1280,c_fill/v1752548725/MagMax-NITRO-Men_s-Maximum-Cushioning-Running-Shoes_ciw7qf.avif',
+          imageAlt: 'MagMax NITRO Mens Maximum Cushioning Running Shoes',
         },
       ],
       sections: [

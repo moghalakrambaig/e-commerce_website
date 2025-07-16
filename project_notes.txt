@@ -120,3 +120,10 @@ added products to product page.
 resized images to a fixed resolution using cloudinary URL
 w_1728,h_2160,c_fill
 https://res.cloudinary.com/dh6g9tp6p/image/upload/w_1728,h_2160,c_fill/v1752341631/nikegreensport_yg45ta.jpg
+
+15/7/2025:
+add filters to the product page.
+customized nav bar.
+
+16/7/2025:
+customizing filters in product page
