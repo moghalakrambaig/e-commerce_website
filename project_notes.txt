@@ -135,7 +135,7 @@ is hidden from the visual interface but remains available for assistive technolo
 add filter icon, remove one filter from mobile version by adding hidden lg:block
 
 18/7/2025:
-adding pagiation
+will add pagiation while integrating api
 need useLocation
 install npm i react-router-dom
 
