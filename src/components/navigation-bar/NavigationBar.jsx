@@ -291,14 +291,14 @@ export default function Navigation() {
                   <span className="sr-only">Your Company</span>
                   <img
                     alt=""
-                    src={require("../../images/web_logo.jpeg")}
-                    className="h-8 w-auto"
+                    src="https://res.cloudinary.com/dh6g9tp6p/image/upload/w_100,h_55,c_fill/v1752629408/logo_pz3tjs.jpg"
+                    className="ml-3 flex w-auto rounded-lg"
                   />
                 </a>
               </div>
 
               {/* Flyout menus */}
-              <PopoverGroup className="hidden lg:ml-8 lg:block lg:self-stretch">
+              <PopoverGroup className="hidden lg:ml-6 lg:block lg:self-stretch">
                 <div className="flex h-full space-x-8">
                   {navigation.categories.map((category) => (
                     <Popover key={category.name} className="flex">

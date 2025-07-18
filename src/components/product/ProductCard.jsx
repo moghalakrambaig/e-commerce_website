@@ -2,7 +2,7 @@ import './ProductCard.css';
 
 const ProductCard = ({ product }) => {
     return (
-        <div className='productCard mt-5 mx-auto flex flex-col items-center rounded-lg shadow-md overflow-hidden bg-white transition-all w-full max-w-[19rem]'>
+        <div className='productCard mt-5 mx-auto flex flex-col items-center rounded-lg shadow-md overflow-hidden bg-white transition-all w-full max-w-[18rem]'>
             <div className=' w-full'>
                 <img className='object-cover object-top w-full h-auto' src={product.imageUrl} alt='Product' />
             </div>

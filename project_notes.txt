@@ -127,3 +127,27 @@ customized nav bar.
 
 16/7/2025:
 customizing filters in product page
+
+17/7/2025:
+The sr-only utility in Tailwind CSS is used to ensure an element
+is hidden from the visual interface but remains available for assistive technologies
+
+add filter icon, remove one filter from mobile version by adding hidden lg:block
+
+18/7/2025:
+adding pagiation
+need useLocation
+install npm i react-router-dom
+
+added browserrouter to index.js
+added useNavigate and uselocation from react router dom
+
+useNavigate:
+useNavigate is a hook provided by React Router (v6 and above).
+It gives you a function that lets you programmatically change the URL (navigate) from your React components.
+Why do we use it?
+To navigate without using a <Link> component
+Sometimes you want to redirect the user after an action (like form submission, button click, or filter change) — not just when they click a link.
+
+added function to change url based on filter selection (handleFilter)
+adjusted tick mark in check box
