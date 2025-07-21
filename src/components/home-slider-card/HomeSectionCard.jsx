@@ -4,7 +4,7 @@ const HomeSectionCard = ({ product }) => {
     return (
         /*Card container*/
         <div className='border border-grey-50 flex flex-col items-center bg-white rounded-lg shadow-lg w-full max-w-[15rem]'>
-            <div className='w-full h-[14rem]'>
+            <div className='w-full h-[14rem] overflow-hidden rounded-t-lg'>
                 <img className='object-cover object-top w-full h-full' src={product.imageUrl} alt='' />
 
             </div>

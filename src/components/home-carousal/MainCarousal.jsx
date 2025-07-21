@@ -4,10 +4,11 @@ import { MainCarousalData } from './MainCarousalData';
 import './MainCarousal.css';
 
 const MainCarousal = () => {
-    const items = MainCarousalData.map((item) => <img className='cursor-pointer' role='presentation' src={item.path} alt="" />);
+    const items = MainCarousalData.map((item) => <img className='cursor-pointer rounded-3xl w-full object-cover' role='presentation' src={item.path} alt="" />);
 
 
-    return (<div className='-mb-7 carousal-container'><AliceCarousel
+    return (<div className="rounded-3xl mt-4 overflow-hidden mx-auto"
+  style={{ width: '96%', maxWidth: '2000px' }}><AliceCarousel
         items={items}
         disableButtonsControls
         autoPlay

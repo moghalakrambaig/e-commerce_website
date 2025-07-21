@@ -16,6 +16,7 @@ import {
   TabPanels,
 } from '@headlessui/react'
 import { Bars3Icon, MagnifyingGlassIcon, ShoppingBagIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 
 const navigation = {
   categories: [
@@ -241,6 +242,7 @@ export default function Navigation() {
 
             <div className="space-y-6 border-t border-gray-200 px-4 py-6">
               <div className="flow-root">
+
                 <a href="#" className="-m-2 block p-2 font-medium text-gray-900">
                   Sign in
                 </a>
@@ -291,7 +293,7 @@ export default function Navigation() {
                   <span className="sr-only">Your Company</span>
                   <img
                     alt=""
-                    src="https://res.cloudinary.com/dh6g9tp6p/image/upload/w_100,h_55,c_fill/v1752629408/logo_pz3tjs.jpg"
+                    src="https://res.cloudinary.com/dh6g9tp6p/image/upload/w_100,h_55,c_fill/v1752341565/web_logo_oubm8g.jpg"
                     className="ml-3 flex w-auto rounded-lg"
                   />
                 </a>
@@ -380,8 +382,8 @@ export default function Navigation() {
 
               <div className="ml-auto flex items-center">
                 <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
-                  <a href="#" className="text-sm font-medium text-gray-700 hover:text-gray-800">
-                    Sign in
+                  <a href="#" className="text-md font-medium text-gray-700 hover:text-gray-800">
+                    <PersonOutlineOutlinedIcon className='mb-1'/> Sign in
                   </a>
                   <span aria-hidden="true" className="h-6 w-px bg-gray-200" />
                   <a href="#" className="text-sm font-medium text-gray-700 hover:text-gray-800">

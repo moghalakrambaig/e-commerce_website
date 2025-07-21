@@ -151,3 +151,12 @@ Sometimes you want to redirect the user after an action (like form submission, b
 
 added function to change url based on filter selection (handleFilter)
 adjusted tick mark in check box
+
+20/7/2025:
+modifying nav bar
+homesection card
+home carousal
+
+21/7/2025:
+modifyied carousal
+
